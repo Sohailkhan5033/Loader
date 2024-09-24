@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    height: 400px;
+    width: 400px;
+    border-radius: 50em;
+    border: 10px gainsboro solid;
+    animation: spin 3s linear infinite;
+    margin-top: 20px;
+    border-top: 10px blue solid;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+audio{
+    display: none;
+}

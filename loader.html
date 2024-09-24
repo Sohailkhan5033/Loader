@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <link rel="stylesheet" href="load.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Background music with mute initially to bypass autoplay restriction -->
+    <audio autoplay loop muted id="background-music">
+        <source src="Music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h1>Sabar kar lay bahi</h1>
+
+    <!-- Button to unmute the music -->
+    <button onclick="document.getElementById('background-music').muted = false;">Unmute Music</button>
+    <script rel="function" src="load.js"></script>
+ 
+
+    
+</body>
+</html>
